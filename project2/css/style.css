@@ -1,0 +1,49 @@
+/* 공통 */
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+.space{clear: both;}
+/* 헤더 */
+.logo{width: 100%; text-align: center; padding: 20px 0;}
+.menubar{width: 100%; height: 50px; background-color: #67582f; line-height: 50px;}
+.menu{width: 1088px; color: #fff; margin: 0 auto; text-align: center; }
+.menu>li{width: calc(100%/5); float: left;}
+.menu>li>a{color: #fff; text-decoration: none;}
+
+/* 메인 */
+.mainimg{width: 100%; height: 508px; background-image: url(../img/mainimg-1.jpg); background-repeat: no-repeat; background-position: center center;}
+
+/* 콘텐츠 */
+.inner{width: 1088px; margin: 0 auto;}
+.box1>.inner>h2{padding-top: 82px; text-align: center;}
+.box1_set{padding-top: 28px;}
+.list{float: left; width: calc(100%/4 - 3%); margin: 0 2%;}
+.list:nth-child(1){margin-left: 0;}
+.list:nth-child(4){margin-right: 0;}
+.list>div>img{width: 100%;}
+.list>h3{font-size: 15px; letter-spacing: -1px;}
+.list>p{font-size: 12px; color: #9a9a9a;}
+.btn{width: 100%; height: 40px; background-color: #67582f; text-align: center; line-height: 40px; margin-top: 12px; color: #fff;}
+
+.box2>.inner>h2{padding-top: 82px; text-align: center;}
+.box2>.inner>ul{padding-top: 28px;}
+.box2>.inner>ul>li{width: calc(100%/4 - 2%); height: 50px; background-color: #f8e3b8; color: #685c4c; text-align: center; float: left; line-height: 50px; margin-bottom: 2%; border-radius: 50px; font-weight: bold;} 
+.box2>.inner>ul>li:nth-child(2),.box2>.inner>ul>li:nth-child(3), .box2>.inner>ul>li:nth-child(6), .box2>.inner>ul>li:nth-child(7){margin: 0 2%;}
+
+.box3{padding-top: 82px;}
+.box3_banner>img{width: 100%;}
+
+/* 푸터 */
+.footer{width: 100%; height: 206px; background-color: #535353; color: #fff; margin-top: 60px; }
+.copyright{float: left; font-size: 13px; padding-top: 50px;}
+.sns{float: right; padding-top: 45px;}
+.sns>li{float: left; padding-left: 30px;}
+
+/* sub1 */
+.sub_mainimg{width: 100%; height: 230px; background-image: url(../img/subimg-1.jpg); background-position: center center; background-repeat: no-repeat; background-size: cover}
+
+.sub_contents{padding-top: 40px;}
+.box1>.inner>h3{text-align: center; padding-top: 60px;}
+.sub_1infoimg{padding-top: 60px; float: left;}
+.sub_1infotextimg{padding-top: 60px; float: right;}
+.sub_2infoimg{padding-top: 60px; float: right;}
+.sub_2infotextimg{padding-top: 60px; float: left;}

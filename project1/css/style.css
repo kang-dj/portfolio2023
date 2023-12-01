@@ -1,0 +1,70 @@
+/* 공통 */
+*{padding: 0; margin: 0;}
+ul{list-style: none;}
+.inner{width: 1200px; margin: 0 auto;}
+#wrap{width: 100%;}
+
+/* 헤더부분 */
+#header{width: 100%;}
+.top_white{width: 100%; height: 40px; background-color: #fff; color: black; line-height: 40px;}
+.white_left{width: 500px; float: left;}
+.white_right{width: 120px; float: right;}
+.white_left>li{float: left;}
+.white_right>li{float: left;}
+.top_white>.inner:after{clear: both; display: block; content: "";}
+.white_left:after{clear: both; display: block; content: "";}
+.white_right:after{clear: both; display: block; content: "";}
+.white_left>li:before{display: inline-block; content: "|"; padding: 0 10px;}
+.white_left>li:nth-child(1):before{display: none;}
+
+.top_blue{width: 100%; height: 41px; line-height: 41px; background-color: #44b7ed;}
+.logo{width: 80px; float: left; padding-top: 5px;}
+.logo>img{width: 100%; padding: 5px;}
+.menu{float: left;}
+.menu:after{clear: both; display: block; content: "";}
+.menu>li{padding-right: 60px; float: left; padding-left: 5px;}
+.menu>li:nth-child(1){font-size: 18px; font-weight: bold; color: #0e4698;}
+
+#mainimg{position: relative; width: 100%; height: 635px; background-image: url(../img/mainimg.JPG); background-repeat: no-repeat; background-size: cover; background-position: center center;}
+
+/* 컨텐츠부분 */
+.box1{padding-top: 100px;}
+.list{width: calc(100%/4); float: left; text-align: center;}
+.list>h3{font-size: 25px; padding: 15px 0;}
+.list>p{width: 80%; margin: 0 auto; line-height: 25px; letter-spacing: -1px; font-size: 13px;}
+.inner:after{clear: both; display: block; content: "";}
+
+.box2{width: 100%; height: 710px; background-color: #ededed; margin-top: 100px;}
+.box2>.inner>h2{text-align: center; padding: 50px 0;}
+
+.set_left{width: 50%; height: 400px; float: left; background-color: #fff; border-radius: 15px;}
+.set_left>img{width: 100%; height: 100%; border-radius: 15px;}
+
+.set_center{width: 24%; float: left; color: #fff; margin-left: 1%;}
+
+.green{width: 100%; height: 195px; background-color: #299738; margin-bottom: 10px; border-radius: 15px; background-image: url(../img/ship_1.png); background-repeat: no-repeat; background-position: 100% bottom;}
+.green>div{padding: 20px;}
+.green>div>h3{padding-bottom: 20px;}
+.green>div>p{padding-bottom: 20px;}
+
+.blue{width: 100%; height: 195px; background-color: #0e4194; margin-bottom: 10px; border-radius: 15px; background-image: url(../img/확성기_1.png); background-repeat: no-repeat; background-position: 90% 90%;}
+.blue>div{padding: 20px;}
+.blue>div>h3{padding-bottom: 15px;}
+.blue>div>p{padding-bottom: 20px;}
+
+.set_right{width: 24%; height: 400px; float: right; background-color: #fff; border-radius: 15px; margin-left: 1%;}
+.set_right>div{padding: 20px;}
+.set_right>div>h3{padding-bottom: 20px;}
+.set_right>div>p{padding-bottom: 15px; padding-top: 15px;}
+.line{width: 100%; border-bottom: 1px solid #ccc;}
+.line{padding-top: 10px;}
+.more{padding-top: 20px; text-decoration: underline;}
+.box2_set:after{clear: both; display: block; content: "";}
+
+/* 푸터부분 */
+#footer{color: #fff;}
+.footer_top{width: 100%; height: 54px; line-height: 54px; background-color: #44b7ed; color: #1b488b;}
+.footer_top>.inner>ul>li{float: left; padding-right: 50px;}
+.footer_top>.inner>ul:after{clear: both; display: block; content: "";}
+.footer_bottom{width: 100%; height: 130px; background-color: #0d4494; padding-top: 30px;}
+.footer_bottom>.inner>p:nth-child(1){font-size: 18px; font-weight: bold; padding-bottom: 15px;}
